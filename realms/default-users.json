@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "username": "christina",
+      "enabled": true,
+      "email": "christina@test.com",
+      "firstName": "Christina",
+      "lastName": "Travis",
+      "credentials": [
+        {
+          "type": "password",
+          "value": "test"
+        }
+      ],
+      "realmRoles": [
+        "user"
+      ],
+      "clientRoles": {
+        "account": [
+          "view-profile",
+          "manage-account"
+        ]
+      }
+    },
+    …
+  ]
+}
